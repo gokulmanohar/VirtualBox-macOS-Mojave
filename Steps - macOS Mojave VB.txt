@@ -1,0 +1,101 @@
+STEPS 
+
+ 
+
+1. Download Virtual Box - https://www.virtualbox.org/ 
+
+2. Download macOS Mojave 10.14.3; 18C54 (February 7, 2019) - http://www.mediafire.com/file/cy7oa9a154bnmua/Mojave_Image_HFS_by_Techsviewer.com.rar/file 
+
+3. Additional File (WinRAR): Download if necessary - https://www.rarlab.com/rar/winrar-x64-58b1.exe 
+
+4. Extract the macOS 10.14 Mojave Virtual Image 
+
+5. Configure VirtualBox to Install macOS 10.14 Mojave 
+
+ 
+
+Step 1: Name and Operating System 
+
+First a screen will appear and it will ask to Create Virtual Machine. Therefore, to configure Name and Operating System 
+
+Name: write any name for your macOS Mojave. In my case I wrote “macOS Mojave”. Remember that you will also need that name in feature configuration as well. 
+
+Type: For sure you should select Mac OS X in type. 
+
+Version: In the version you have to select macOS 10.13 high Sierra (64 bit). If you are thinking that why we have selected 10.13. That is the version which VirtualBox support. However, don’t worry and 10.14 works smoothly. 
+
+Finally, when every detail has submitted. Then you have to click on Next. 
+
+Step 2: Memory Size 
+
+When you will click on Next. You will get Memory Size configuration setting. Therefore, you have to select the memory size as required. However, I recommend you to select half (50%) of your memory. For example, if you have 8GB of ram you have to select 4GB for the macOS 10.14 Mojave. Because, when you will completely install the operating system. Then running different application and software will work smoothly. However, don’t exceed 50%. For the reason that, Windows 10 will then start lagging. The ideal situation makes 50/50 share of memory size. 
+
+Step 3: Hard Disk Selection 
+
+If you wish you can add a virtual hard disk to the new machine. You can either create a new hard disk file or select one from the list or from another location using the folder icon. 
+
+If you need a more complex storage set-up you can skip this step and make the changes to the machine settings once the machine is created. However, the recommended size of the hard disk is 20.00 GB. 
+
+But, Choose “use an existing virtual hard disk file” then open the “macOS Mojave 10.14.vmdk” file. Click on the “Finish” button and the virtual machine will be created. 
+
+Edit the Virtual Machine 
+
+Right now, the wizard part has been completed and next you are going to configure the virtual machine. For doing so you have to follow the setting below. 
+
+Step 1: Configure System 
+
+You will see on the right-hand side of VirtualBox the macOS Mojave. Select it and on the top, you will see the option for settings. Click on setting. 
+
+Step 2: System Setting 
+
+Here you will see various options on left side. However, you have to click on System. Further, you will see there more options on the tab. 
+
+1. You have to click on Motherboard. 
+
+Moreover, you will see different other option. I will guide you here which one you have to select. 
+
+Check the box of Optical 
+
+Check the box of Hard Disk 
+
+Chipset: ICH9 
+
+Pointing Device: USB Tablet 
+
+Extended Features: Check all the box of 
+
+Enable I/O APIC 
+
+Enable EFI (Special OS’s only) 
+
+Hardware Clock in UTC Time 
+
+2. Next you have to click on Processor Tab. Check the box Next to the PAE/NX and increase cores to 50% for the best optimal performance. 
+
+3. Further, you have to Click on Display category. Here you should change the Video Memory to 128MB. There is a different other option as well. See if you want to change those. However, it is not essentially required. 
+
+4. Moreover, click on Storage category. Here on the right side you will find Use Host I/O Cache Enable it by click on the box. 
+
+Add code to VirtualBox with Command Prompt 
+
+You have almost completed every single setting. However, there is only one more modification. Where you can edit and ready for the installation. 
+
+For the editing the file you have to open the command prompt. Remember before starting command prompt. You are to close VirtualBox. Further, you have to write CMD on search box. Then you will get command prompt icon right click on it and click on “Run as administrator”. 
+
+[Codes are given separately] 
+
+ 
+
+Install macOS 10.14 Mojave on VirtualBox 
+
+It's time to install macOS 10.14 Mojave on VirtualBox. Everything is configured and you are ready to install the macOS Mojave operating system. Follow the steps below for installing macOS 10.14 Mojave on VirtualBox. 
+
+Click on the created VirtualBox. And it will start. Further, after sometime when everything will load then the first screen will appear. And continue the steps from here. 
+
+ 
+
+Reference 
+
+https://www.professionaltutorial.com/install-macos-mojave-virtualbox-windows/ 
+
+https://www.youtube.com/watch?v=PJhJC-ofWKc 

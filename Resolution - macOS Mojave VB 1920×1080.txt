@@ -1,0 +1,7 @@
+Inorder to make the virtual machine run on full screen you have to specify the resolution
+reference - https://www.youtube.com/watch?v=PJhJC-ofWKc
+
+Code:
+
+cd “c:/Program Files\oracle\virtualbox”
+VBoxManage setextradata “macOS Mojave” VBoxInternal2/EfiGraphicsResolution 1920x1080
